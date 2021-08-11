@@ -9,21 +9,55 @@
 /* Begin PBXBuildFile section */
 		CE127B6826BA667100AE73A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B6726BA667100AE73A4 /* AppDelegate.swift */; };
 		CE127B6A26BA667100AE73A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B6926BA667100AE73A4 /* SceneDelegate.swift */; };
-		CE127B6C26BA667100AE73A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B6B26BA667100AE73A4 /* ViewController.swift */; };
 		CE127B6F26BA667100AE73A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE127B6D26BA667100AE73A4 /* Main.storyboard */; };
 		CE127B7126BA667400AE73A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE127B7026BA667400AE73A4 /* Assets.xcassets */; };
 		CE127B7426BA667400AE73A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE127B7226BA667400AE73A4 /* LaunchScreen.storyboard */; };
+		CE127B8226BA690900AE73A4 /* BeverageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B8126BA690900AE73A4 /* BeverageInfo.swift */; };
+		CE127B8426BA6A7400AE73A4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B8326BA6A7400AE73A4 /* UIView+Extension.swift */; };
+		CE127B8626BA6C3F00AE73A4 /* BevCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B8526BA6C3F00AE73A4 /* BevCell.swift */; };
+		CE127B8826BA6EBC00AE73A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B8726BA6EBC00AE73A4 /* ViewController.swift */; };
+		CE127B8A26BA93C700AE73A4 /* IngredientsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B8926BA93C700AE73A4 /* IngredientsCell.swift */; };
+		CE127B8C26BA941900AE73A4 /* BevDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B8B26BA941900AE73A4 /* BevDetailsViewController.swift */; };
+		CE127B8E26BAD4CA00AE73A4 /* FilteringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B8D26BAD4CA00AE73A4 /* FilteringCell.swift */; };
+		CE127B9026BAD50200AE73A4 /* FilteringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B8F26BAD50200AE73A4 /* FilteringViewController.swift */; };
+		CE127B9226BAE12B00AE73A4 /* AllFiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B9126BAE12B00AE73A4 /* AllFiltersViewController.swift */; };
+		CE127B9426BAEA3A00AE73A4 /* AllFiltersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B9326BAEA3A00AE73A4 /* AllFiltersCell.swift */; };
+		CE127B9626BB029F00AE73A4 /* FilteredBevCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B9526BB029F00AE73A4 /* FilteredBevCell.swift */; };
+		CE127B9826BB02C500AE73A4 /* FilteredBevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B9726BB02C500AE73A4 /* FilteredBevViewController.swift */; };
+		CE127B9B26BC53D300AE73A4 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B9A26BC53D300AE73A4 /* OnboardingViewController.swift */; };
+		CE127B9D26BC588A00AE73A4 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B9C26BC588A00AE73A4 /* OnboardingSlide.swift */; };
+		CE127B9F26BC5BD100AE73A4 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127B9E26BC5BD100AE73A4 /* OnboardingCollectionViewCell.swift */; };
+		CE127BA126BD3FF400AE73A4 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127BA026BD3FF400AE73A4 /* LoadingViewController.swift */; };
+		CE127BA426BD4A9400AE73A4 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127BA326BD4A9300AE73A4 /* NavigationManager.swift */; };
+		CE127BA626BD52AA00AE73A4 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE127BA526BD52AA00AE73A4 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE127B6426BA667100AE73A4 /* BeverageDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeverageDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE127B6726BA667100AE73A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE127B6926BA667100AE73A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE127B6B26BA667100AE73A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE127B6E26BA667100AE73A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE127B7026BA667400AE73A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE127B7326BA667400AE73A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE127B7526BA667400AE73A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE127B8126BA690900AE73A4 /* BeverageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeverageInfo.swift; sourceTree = "<group>"; };
+		CE127B8326BA6A7400AE73A4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CE127B8526BA6C3F00AE73A4 /* BevCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevCell.swift; sourceTree = "<group>"; };
+		CE127B8726BA6EBC00AE73A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE127B8926BA93C700AE73A4 /* IngredientsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsCell.swift; sourceTree = "<group>"; };
+		CE127B8B26BA941900AE73A4 /* BevDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevDetailsViewController.swift; sourceTree = "<group>"; };
+		CE127B8D26BAD4CA00AE73A4 /* FilteringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringCell.swift; sourceTree = "<group>"; };
+		CE127B8F26BAD50200AE73A4 /* FilteringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringViewController.swift; sourceTree = "<group>"; };
+		CE127B9126BAE12B00AE73A4 /* AllFiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFiltersViewController.swift; sourceTree = "<group>"; };
+		CE127B9326BAEA3A00AE73A4 /* AllFiltersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFiltersCell.swift; sourceTree = "<group>"; };
+		CE127B9526BB029F00AE73A4 /* FilteredBevCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredBevCell.swift; sourceTree = "<group>"; };
+		CE127B9726BB02C500AE73A4 /* FilteredBevViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredBevViewController.swift; sourceTree = "<group>"; };
+		CE127B9A26BC53D300AE73A4 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		CE127B9C26BC588A00AE73A4 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		CE127B9E26BC5BD100AE73A4 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE127BA026BD3FF400AE73A4 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		CE127BA326BD4A9300AE73A4 /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		CE127BA526BD52AA00AE73A4 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +92,78 @@
 			children = (
 				CE127B6726BA667100AE73A4 /* AppDelegate.swift */,
 				CE127B6926BA667100AE73A4 /* SceneDelegate.swift */,
-				CE127B6B26BA667100AE73A4 /* ViewController.swift */,
-				CE127B6D26BA667100AE73A4 /* Main.storyboard */,
+				CE127B7C26BA670B00AE73A4 /* Helpers */,
+				CE127B7B26BA66C900AE73A4 /* Storyboards */,
+				CE127B7F26BA676900AE73A4 /* Models */,
+				CE127B8026BA677500AE73A4 /* View Controllers */,
 				CE127B7026BA667400AE73A4 /* Assets.xcassets */,
-				CE127B7226BA667400AE73A4 /* LaunchScreen.storyboard */,
 				CE127B7526BA667400AE73A4 /* Info.plist */,
 			);
 			path = BeverageDB;
+			sourceTree = "<group>";
+		};
+		CE127B7B26BA66C900AE73A4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE127B6D26BA667100AE73A4 /* Main.storyboard */,
+				CE127B7226BA667400AE73A4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE127B7C26BA670B00AE73A4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE127B8126BA690900AE73A4 /* BeverageInfo.swift */,
+				CE127B8326BA6A7400AE73A4 /* UIView+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE127B7F26BA676900AE73A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE127B8526BA6C3F00AE73A4 /* BevCell.swift */,
+				CE127B8926BA93C700AE73A4 /* IngredientsCell.swift */,
+				CE127B8D26BAD4CA00AE73A4 /* FilteringCell.swift */,
+				CE127B9326BAEA3A00AE73A4 /* AllFiltersCell.swift */,
+				CE127B9526BB029F00AE73A4 /* FilteredBevCell.swift */,
+				CE127B9C26BC588A00AE73A4 /* OnboardingSlide.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE127B8026BA677500AE73A4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE127B9926BC539300AE73A4 /* Onboarding */,
+				CE127B8726BA6EBC00AE73A4 /* ViewController.swift */,
+				CE127B8B26BA941900AE73A4 /* BevDetailsViewController.swift */,
+				CE127B8F26BAD50200AE73A4 /* FilteringViewController.swift */,
+				CE127B9126BAE12B00AE73A4 /* AllFiltersViewController.swift */,
+				CE127B9726BB02C500AE73A4 /* FilteredBevViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CE127B9926BC539300AE73A4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CE127BA226BD4A7C00AE73A4 /* Service */,
+				CE127B9A26BC53D300AE73A4 /* OnboardingViewController.swift */,
+				CE127B9E26BC5BD100AE73A4 /* OnboardingCollectionViewCell.swift */,
+				CE127BA026BD3FF400AE73A4 /* LoadingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CE127BA226BD4A7C00AE73A4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CE127BA326BD4A9300AE73A4 /* NavigationManager.swift */,
+				CE127BA526BD52AA00AE73A4 /* StorageManager.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +236,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE127B6C26BA667100AE73A4 /* ViewController.swift in Sources */,
+				CE127B8E26BAD4CA00AE73A4 /* FilteringCell.swift in Sources */,
+				CE127B9426BAEA3A00AE73A4 /* AllFiltersCell.swift in Sources */,
+				CE127B8826BA6EBC00AE73A4 /* ViewController.swift in Sources */,
+				CE127B9F26BC5BD100AE73A4 /* OnboardingCollectionViewCell.swift in Sources */,
+				CE127B8626BA6C3F00AE73A4 /* BevCell.swift in Sources */,
+				CE127BA126BD3FF400AE73A4 /* LoadingViewController.swift in Sources */,
+				CE127B9D26BC588A00AE73A4 /* OnboardingSlide.swift in Sources */,
+				CE127BA626BD52AA00AE73A4 /* StorageManager.swift in Sources */,
 				CE127B6826BA667100AE73A4 /* AppDelegate.swift in Sources */,
+				CE127B8C26BA941900AE73A4 /* BevDetailsViewController.swift in Sources */,
+				CE127B8226BA690900AE73A4 /* BeverageInfo.swift in Sources */,
+				CE127BA426BD4A9400AE73A4 /* NavigationManager.swift in Sources */,
+				CE127B9B26BC53D300AE73A4 /* OnboardingViewController.swift in Sources */,
+				CE127B9626BB029F00AE73A4 /* FilteredBevCell.swift in Sources */,
+				CE127B8426BA6A7400AE73A4 /* UIView+Extension.swift in Sources */,
+				CE127B9826BB02C500AE73A4 /* FilteredBevViewController.swift in Sources */,
+				CE127B9226BAE12B00AE73A4 /* AllFiltersViewController.swift in Sources */,
+				CE127B9026BAD50200AE73A4 /* FilteringViewController.swift in Sources */,
+				CE127B8A26BA93C700AE73A4 /* IngredientsCell.swift in Sources */,
 				CE127B6A26BA667100AE73A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

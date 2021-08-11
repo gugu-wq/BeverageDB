@@ -10,10 +10,16 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    
+    //comment out to disable onboarding screen from showing
+    private let storageManager = StorageManager()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //comment out to disable onboarding screen from showing
+        storageManager.resetOnboardingViewed()
+        
         return true
     }
 
